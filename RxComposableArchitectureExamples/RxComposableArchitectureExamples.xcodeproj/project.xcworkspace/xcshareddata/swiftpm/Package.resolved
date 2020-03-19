@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "RxDataSources",
+        "repositoryURL": "git@github.com:RxSwiftCommunity/RxDataSources.git",
+        "state": {
+          "branch": null,
+          "revision": "a18cee01c9ee55f04d0c7eb15c77a96c3648c88e",
+          "version": "4.0.1"
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "c1bd31b397d87a54467af4161dde9d6b27720c19",
+          "version": "5.1.0"
+        }
+      },
+      {
+        "package": "CasePaths",
+        "repositoryURL": "https://github.com/pointfreeco/swift-case-paths.git",
+        "state": {
+          "branch": null,
+          "revision": "a9c1e05518b6d95cf5844d823020376f2b6ff842",
+          "version": "0.1.0"
+        }
+      },
+      {
+        "package": "SnapshotTesting",
+        "repositoryURL": "https://github.com/pointfreeco/swift-snapshot-testing.git",
+        "state": {
+          "branch": null,
+          "revision": "114882386a815f4a2e6d8f2f7ee4857acd372438",
+          "version": "1.7.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
