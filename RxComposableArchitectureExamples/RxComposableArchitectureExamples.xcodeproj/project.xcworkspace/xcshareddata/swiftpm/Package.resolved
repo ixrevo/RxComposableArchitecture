@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "RxComposableArchitecture",
+        "repositoryURL": "https://github.com/ixrevo/RxComposableArchitecture",
+        "state": {
+          "branch": "master",
+          "revision": "a8175ae148f4263c967097b2e078b9d862efcd78",
+          "version": null
+        }
+      },
+      {
         "package": "RxDataSources",
         "repositoryURL": "git@github.com:RxSwiftCommunity/RxDataSources.git",
         "state": {

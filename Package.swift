@@ -13,6 +13,10 @@ let package = Package(
     .library(
       name: "RxComposableArchitecture",
       targets: ["RxComposableArchitecture"]),
+    .library(
+      name: "RxComposableArchitecture-dynamic",
+      type: .dynamic,
+      targets: ["RxComposableArchitecture"]),
   ],
   dependencies: [
     // Dependencies declare other packages that this package depends on.
