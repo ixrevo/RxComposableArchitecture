@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E101BAF1242BB784008BE23A"
-               BuildableName = "RxComposableArchitecture.framework"
-               BlueprintName = "RxComposableArchitecture"
+               BlueprintIdentifier = "E19A84112423C2BA00279713"
+               BuildableName = "RxComposableArchitectureExamples.app"
+               BlueprintName = "RxComposableArchitectureExamples"
                ReferencedContainer = "container:RxComposableArchitectureExamples.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,19 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E101BAF9242BB784008BE23A"
-               BuildableName = "RxComposableArchitectureTests.xctest"
-               BlueprintName = "RxComposableArchitectureTests"
+               BlueprintIdentifier = "E19A84272423C2BC00279713"
+               BuildableName = "RxComposableArchitectureExamplesTests.xctest"
+               BlueprintName = "RxComposableArchitectureExamplesTests"
+               ReferencedContainer = "container:RxComposableArchitectureExamples.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E19A84322423C2BC00279713"
+               BuildableName = "RxComposableArchitectureExamplesUITests.xctest"
+               BlueprintName = "RxComposableArchitectureExamplesUITests"
                ReferencedContainer = "container:RxComposableArchitectureExamples.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -50,6 +60,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E19A84112423C2BA00279713"
+            BuildableName = "RxComposableArchitectureExamples.app"
+            BlueprintName = "RxComposableArchitectureExamples"
+            ReferencedContainer = "container:RxComposableArchitectureExamples.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -57,15 +77,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E101BAF1242BB784008BE23A"
-            BuildableName = "RxComposableArchitecture.framework"
-            BlueprintName = "RxComposableArchitecture"
+            BlueprintIdentifier = "E19A84112423C2BA00279713"
+            BuildableName = "RxComposableArchitectureExamples.app"
+            BlueprintName = "RxComposableArchitectureExamples"
             ReferencedContainer = "container:RxComposableArchitectureExamples.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

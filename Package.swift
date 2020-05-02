@@ -14,9 +14,8 @@ let package = Package(
       name: "RxComposableArchitecture",
       targets: ["RxComposableArchitecture"]),
     .library(
-      name: "RxComposableArchitecture-dynamic",
-      type: .dynamic,
-      targets: ["RxComposableArchitecture"]),
+      name: "RxComposableArchitectureTestSupport",
+      targets: ["RxComposableArchitectureTestSupport"]),
   ],
   dependencies: [
     // Dependencies declare other packages that this package depends on.
@@ -38,6 +37,9 @@ let package = Package(
         "RxSwift",
         .product(name: "RxRelay", package: "RxSwift")
     ]),
+    .target(
+      name: "RxComposableArchitectureTestSupport",
+      dependencies: ["RxComposableArchitecture"]),
     .testTarget(
       name: "RxComposableArchitectureTests",
       dependencies: ["RxComposableArchitecture"]),

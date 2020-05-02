@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E101BB1D242BB97F008BE23A /* RxComposableArchitectureTestSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = E101BB1B242BB97F008BE23A /* RxComposableArchitectureTestSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E101BB22242BB9B7008BE23A /* ComposableArchitectureTestSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E101BB21242BB9B7008BE23A /* ComposableArchitectureTestSupport.swift */; };
 		E101BB2F242BBC7F008BE23A /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = E101BB2E242BBC7F008BE23A /* SnapshotTesting */; };
 		E1465BD9242A6561000BF643 /* TodoList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1465BD0242A6561000BF643 /* TodoList.framework */; };
 		E1465BDE242A6561000BF643 /* TodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1465BDD242A6561000BF643 /* TodoListTests.swift */; };
@@ -18,11 +16,6 @@
 		E1465BEF242A66C5000BF643 /* TodoList.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1465BD0242A6561000BF643 /* TodoList.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E1465BF4242A66F5000BF643 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1465BF3242A66F5000BF643 /* TodoList.swift */; };
 		E1465BF6242A72CD000BF643 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1465BF5242A72CD000BF643 /* AppState.swift */; };
-		E181FCB3245DE0EB007AB560 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = E181FCB2245DE0EB007AB560 /* RxDataSources */; };
-		E181FCB6245DE18E007AB560 /* RxComposableArchitectureTestSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E101BB19242BB97F008BE23A /* RxComposableArchitectureTestSupport.framework */; };
-		E181FCC1245DE3BD007AB560 /* RxComposableArchitecture-dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = E181FCC0245DE3BD007AB560 /* RxComposableArchitecture-dynamic */; };
-		E181FCC2245DE3BD007AB560 /* RxComposableArchitecture-dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = E181FCC0245DE3BD007AB560 /* RxComposableArchitecture-dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		E181FCC8245DE4F2007AB560 /* RxComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = E181FCC7245DE4F2007AB560 /* RxComposableArchitecture */; };
 		E19A84162423C2BA00279713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A84152423C2BA00279713 /* AppDelegate.swift */; };
 		E19A84182423C2BA00279713 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A84172423C2BA00279713 /* SceneDelegate.swift */; };
 		E19A841C2423C2BB00279713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19A841B2423C2BB00279713 /* Assets.xcassets */; };
@@ -31,6 +24,13 @@
 		E19A842D2423C2BC00279713 /* RxComposableArchitectureExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A842C2423C2BC00279713 /* RxComposableArchitectureExamplesTests.swift */; };
 		E19A84382423C2BC00279713 /* RxComposableArchitectureExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A84372423C2BC00279713 /* RxComposableArchitectureExamplesUITests.swift */; };
 		E19A84462423C35100279713 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A84452423C35100279713 /* AppViewController.swift */; };
+		E1BC68C6245DEAEE000D7BCD /* RxComposableArchitectureTestSupport in Frameworks */ = {isa = PBXBuildFile; productRef = E1BC68C5245DEAEE000D7BCD /* RxComposableArchitectureTestSupport */; settings = {ATTRIBUTES = (Required, ); }; };
+		E1BC68F0245DF20D000D7BCD /* Dependencies.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BC68EE245DF20D000D7BCD /* Dependencies.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1BC68F3245DF20D000D7BCD /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BC68EC245DF20D000D7BCD /* Dependencies.framework */; };
+		E1BC68F4245DF20D000D7BCD /* Dependencies.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1BC68EC245DF20D000D7BCD /* Dependencies.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E1BC68F9245DF217000D7BCD /* RxComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = E1BC68F8245DF217000D7BCD /* RxComposableArchitecture */; };
+		E1BC68FB245DF21B000D7BCD /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = E1BC68FA245DF21B000D7BCD /* RxDataSources */; };
+		E1BC68FD245DF22E000D7BCD /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BC68EC245DF20D000D7BCD /* Dependencies.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,13 +48,6 @@
 			remoteGlobalIDString = E1465BCF242A6561000BF643;
 			remoteInfo = TodoList;
 		};
-		E181FCB7245DE196007AB560 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E19A840A2423C2BA00279713 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E101BB18242BB97F008BE23A;
-			remoteInfo = RxComposableArchitectureTestSupport;
-		};
 		E19A84292423C2BC00279713 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E19A840A2423C2BA00279713 /* Project object */;
@@ -69,6 +62,20 @@
 			remoteGlobalIDString = E19A84112423C2BA00279713;
 			remoteInfo = RxComposableArchitectureExamples;
 		};
+		E1BC68F1245DF20D000D7BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E19A840A2423C2BA00279713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1BC68EB245DF20D000D7BCD;
+			remoteInfo = Dependencies;
+		};
+		E1BC68FF245DF22E000D7BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E19A840A2423C2BA00279713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1BC68EB245DF20D000D7BCD;
+			remoteInfo = Dependencies;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,22 +86,12 @@
 			dstSubfolderSpec = 10;
 			files = (
 				E1465BEF242A66C5000BF643 /* TodoList.framework in Embed Frameworks */,
+				E1BC68F4245DF20D000D7BCD /* Dependencies.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E181FCBF245DE37F007AB560 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				E181FCC2245DE3BD007AB560 /* RxComposableArchitecture-dynamic in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E181FCC6245DE4D9007AB560 /* Embed Frameworks */ = {
+		E181FCCD245DE7B0007AB560 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -107,10 +104,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E101BB19242BB97F008BE23A /* RxComposableArchitectureTestSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxComposableArchitectureTestSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E101BB1B242BB97F008BE23A /* RxComposableArchitectureTestSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxComposableArchitectureTestSupport.h; sourceTree = "<group>"; };
-		E101BB1C242BB97F008BE23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E101BB21242BB9B7008BE23A /* ComposableArchitectureTestSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposableArchitectureTestSupport.swift; sourceTree = "<group>"; };
 		E1465BD0242A6561000BF643 /* TodoList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TodoList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1465BD2242A6561000BF643 /* TodoList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoList.h; sourceTree = "<group>"; };
 		E1465BD3242A6561000BF643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -135,23 +128,19 @@
 		E19A84372423C2BC00279713 /* RxComposableArchitectureExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxComposableArchitectureExamplesUITests.swift; sourceTree = "<group>"; };
 		E19A84392423C2BC00279713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E19A84452423C35100279713 /* AppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		E1BC68D4245DF14D000D7BCD /* Deps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deps.h; sourceTree = "<group>"; };
+		E1BC68D5245DF14D000D7BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BC68EC245DF20D000D7BCD /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BC68EE245DF20D000D7BCD /* Dependencies.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dependencies.h; sourceTree = "<group>"; };
+		E1BC68EF245DF20D000D7BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E101BB16242BB97F008BE23A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E181FCC1245DE3BD007AB560 /* RxComposableArchitecture-dynamic in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E1465BCD242A6561000BF643 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E181FCC8245DE4F2007AB560 /* RxComposableArchitecture in Frameworks */,
-				E181FCB3245DE0EB007AB560 /* RxDataSources in Frameworks */,
+				E1BC68FD245DF22E000D7BCD /* Dependencies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,9 +148,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E181FCB6245DE18E007AB560 /* RxComposableArchitectureTestSupport.framework in Frameworks */,
 				E1465BD9242A6561000BF643 /* TodoList.framework in Frameworks */,
 				E101BB2F242BBC7F008BE23A /* SnapshotTesting in Frameworks */,
+				E1BC68C6245DEAEE000D7BCD /* RxComposableArchitectureTestSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1465BEE242A66C5000BF643 /* TodoList.framework in Frameworks */,
+				E1BC68F3245DF20D000D7BCD /* Dependencies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,19 +177,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1BC68E9245DF20D000D7BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BC68F9245DF217000D7BCD /* RxComposableArchitecture in Frameworks */,
+				E1BC68FB245DF21B000D7BCD /* RxDataSources in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E101BB1A242BB97F008BE23A /* RxComposableArchitectureTestSupport */ = {
-			isa = PBXGroup;
-			children = (
-				E101BB21242BB9B7008BE23A /* ComposableArchitectureTestSupport.swift */,
-				E101BB1B242BB97F008BE23A /* RxComposableArchitectureTestSupport.h */,
-				E101BB1C242BB97F008BE23A /* Info.plist */,
-			);
-			path = RxComposableArchitectureTestSupport;
-			sourceTree = "<group>";
-		};
 		E1465BD1242A6561000BF643 /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,12 +219,13 @@
 		E19A84092423C2BA00279713 = {
 			isa = PBXGroup;
 			children = (
+				E1BC68D3245DF14D000D7BCD /* Deps */,
+				E1BC68ED245DF20D000D7BCD /* Dependencies */,
 				E1465BE9242A6699000BF643 /* Frameworks */,
 				E19A84132423C2BA00279713 /* Products */,
 				E19A84142423C2BA00279713 /* RxComposableArchitectureExamples */,
 				E19A842B2423C2BC00279713 /* RxComposableArchitectureExamplesTests */,
 				E19A84362423C2BC00279713 /* RxComposableArchitectureExamplesUITests */,
-				E101BB1A242BB97F008BE23A /* RxComposableArchitectureTestSupport */,
 				E1465BD1242A6561000BF643 /* TodoList */,
 				E1465BDC242A6561000BF643 /* TodoListTests */,
 				E181FCBB245DE2B7007AB560 /* RxComposableArchitecture */,
@@ -250,7 +240,7 @@
 				E19A84332423C2BC00279713 /* RxComposableArchitectureExamplesUITests.xctest */,
 				E1465BD0242A6561000BF643 /* TodoList.framework */,
 				E1465BD8242A6561000BF643 /* TodoListTests.xctest */,
-				E101BB19242BB97F008BE23A /* RxComposableArchitectureTestSupport.framework */,
+				E1BC68EC245DF20D000D7BCD /* Dependencies.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -296,17 +286,27 @@
 			path = RxComposableArchitectureExamplesUITests;
 			sourceTree = "<group>";
 		};
+		E1BC68D3245DF14D000D7BCD /* Deps */ = {
+			isa = PBXGroup;
+			children = (
+				E1BC68D4245DF14D000D7BCD /* Deps.h */,
+				E1BC68D5245DF14D000D7BCD /* Info.plist */,
+			);
+			path = Deps;
+			sourceTree = "<group>";
+		};
+		E1BC68ED245DF20D000D7BCD /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				E1BC68EE245DF20D000D7BCD /* Dependencies.h */,
+				E1BC68EF245DF20D000D7BCD /* Info.plist */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E101BB14242BB97F008BE23A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E101BB1D242BB97F008BE23A /* RxComposableArchitectureTestSupport.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E1465BCB242A6561000BF643 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -315,31 +315,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1BC68E7245DF20D000D7BCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BC68F0245DF20D000D7BCD /* Dependencies.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E101BB18242BB97F008BE23A /* RxComposableArchitectureTestSupport */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E101BB1E242BB97F008BE23A /* Build configuration list for PBXNativeTarget "RxComposableArchitectureTestSupport" */;
-			buildPhases = (
-				E101BB14242BB97F008BE23A /* Headers */,
-				E101BB15242BB97F008BE23A /* Sources */,
-				E101BB16242BB97F008BE23A /* Frameworks */,
-				E101BB17242BB97F008BE23A /* Resources */,
-				E181FCBF245DE37F007AB560 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RxComposableArchitectureTestSupport;
-			packageProductDependencies = (
-				E181FCC0245DE3BD007AB560 /* RxComposableArchitecture-dynamic */,
-			);
-			productName = RxComposableArchitectureTestSupport;
-			productReference = E101BB19242BB97F008BE23A /* RxComposableArchitectureTestSupport.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		E1465BCF242A6561000BF643 /* TodoList */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1465BE1242A6561000BF643 /* Build configuration list for PBXNativeTarget "TodoList" */;
@@ -348,16 +334,14 @@
 				E1465BCC242A6561000BF643 /* Sources */,
 				E1465BCD242A6561000BF643 /* Frameworks */,
 				E1465BCE242A6561000BF643 /* Resources */,
-				E181FCC6245DE4D9007AB560 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E1BC6900245DF22E000D7BCD /* PBXTargetDependency */,
 			);
 			name = TodoList;
 			packageProductDependencies = (
-				E181FCB2245DE0EB007AB560 /* RxDataSources */,
-				E181FCC7245DE4F2007AB560 /* RxComposableArchitecture */,
 			);
 			productName = TodoList;
 			productReference = E1465BD0242A6561000BF643 /* TodoList.framework */;
@@ -370,16 +354,17 @@
 				E1465BD4242A6561000BF643 /* Sources */,
 				E1465BD5242A6561000BF643 /* Frameworks */,
 				E1465BD6242A6561000BF643 /* Resources */,
+				E181FCCD245DE7B0007AB560 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E181FCB8245DE196007AB560 /* PBXTargetDependency */,
 				E1465BDB242A6561000BF643 /* PBXTargetDependency */,
 			);
 			name = TodoListTests;
 			packageProductDependencies = (
 				E101BB2E242BBC7F008BE23A /* SnapshotTesting */,
+				E1BC68C5245DEAEE000D7BCD /* RxComposableArchitectureTestSupport */,
 			);
 			productName = TodoListTests;
 			productReference = E1465BD8242A6561000BF643 /* TodoListTests.xctest */;
@@ -398,6 +383,7 @@
 			);
 			dependencies = (
 				E1465BF1242A66C5000BF643 /* PBXTargetDependency */,
+				E1BC68F2245DF20D000D7BCD /* PBXTargetDependency */,
 			);
 			name = RxComposableArchitectureExamples;
 			packageProductDependencies = (
@@ -442,6 +428,28 @@
 			productReference = E19A84332423C2BC00279713 /* RxComposableArchitectureExamplesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		E1BC68EB245DF20D000D7BCD /* Dependencies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BC68F5245DF20D000D7BCD /* Build configuration list for PBXNativeTarget "Dependencies" */;
+			buildPhases = (
+				E1BC68E7245DF20D000D7BCD /* Headers */,
+				E1BC68E8245DF20D000D7BCD /* Sources */,
+				E1BC68E9245DF20D000D7BCD /* Frameworks */,
+				E1BC68EA245DF20D000D7BCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dependencies;
+			packageProductDependencies = (
+				E1BC68F8245DF217000D7BCD /* RxComposableArchitecture */,
+				E1BC68FA245DF21B000D7BCD /* RxDataSources */,
+			);
+			productName = Dependencies;
+			productReference = E1BC68EC245DF20D000D7BCD /* Dependencies.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -452,10 +460,6 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Alexander Sokol";
 				TargetAttributes = {
-					E101BB18242BB97F008BE23A = {
-						CreatedOnToolsVersion = 11.4;
-						LastSwiftMigration = 1140;
-					};
 					E1465BCF242A6561000BF643 = {
 						CreatedOnToolsVersion = 11.3.1;
 						LastSwiftMigration = 1130;
@@ -474,6 +478,9 @@
 						CreatedOnToolsVersion = 11.3.1;
 						TestTargetID = E19A84112423C2BA00279713;
 					};
+					E1BC68EB245DF20D000D7BCD = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
 				};
 			};
 			buildConfigurationList = E19A840D2423C2BA00279713 /* Build configuration list for PBXProject "RxComposableArchitectureExamples" */;
@@ -489,7 +496,6 @@
 				E19A844A2423C77700279713 /* XCRemoteSwiftPackageReference "RxDataSources" */,
 				E101BB0F242BB845008BE23A /* XCRemoteSwiftPackageReference "swift-case-paths" */,
 				E101BB2D242BBC56008BE23A /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
-				E181FCAF245DDFFB007AB560 /* XCRemoteSwiftPackageReference "RxComposableArchitecture" */,
 			);
 			productRefGroup = E19A84132423C2BA00279713 /* Products */;
 			projectDirPath = "";
@@ -500,19 +506,12 @@
 				E19A84322423C2BC00279713 /* RxComposableArchitectureExamplesUITests */,
 				E1465BCF242A6561000BF643 /* TodoList */,
 				E1465BD7242A6561000BF643 /* TodoListTests */,
-				E101BB18242BB97F008BE23A /* RxComposableArchitectureTestSupport */,
+				E1BC68EB245DF20D000D7BCD /* Dependencies */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E101BB17242BB97F008BE23A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E1465BCE242A6561000BF643 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -551,17 +550,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		E101BB15242BB97F008BE23A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		E1BC68EA245DF20D000D7BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E101BB22242BB9B7008BE23A /* ComposableArchitectureTestSupport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		E1465BCC242A6561000BF643 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -606,6 +604,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1BC68E8245DF20D000D7BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -619,11 +624,6 @@
 			target = E1465BCF242A6561000BF643 /* TodoList */;
 			targetProxy = E1465BF0242A66C5000BF643 /* PBXContainerItemProxy */;
 		};
-		E181FCB8245DE196007AB560 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E101BB18242BB97F008BE23A /* RxComposableArchitectureTestSupport */;
-			targetProxy = E181FCB7245DE196007AB560 /* PBXContainerItemProxy */;
-		};
 		E19A842A2423C2BC00279713 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E19A84112423C2BA00279713 /* RxComposableArchitectureExamples */;
@@ -633,6 +633,16 @@
 			isa = PBXTargetDependency;
 			target = E19A84112423C2BA00279713 /* RxComposableArchitectureExamples */;
 			targetProxy = E19A84342423C2BC00279713 /* PBXContainerItemProxy */;
+		};
+		E1BC68F2245DF20D000D7BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1BC68EB245DF20D000D7BCD /* Dependencies */;
+			targetProxy = E1BC68F1245DF20D000D7BCD /* PBXContainerItemProxy */;
+		};
+		E1BC6900245DF22E000D7BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1BC68EB245DF20D000D7BCD /* Dependencies */;
+			targetProxy = E1BC68FF245DF22E000D7BCD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -648,83 +658,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E101BB1F242BB97F008BE23A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = EG6FT95FRX;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				INFOPLIST_FILE = RxComposableArchitectureTestSupport/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				OTHER_LDFLAGS = (
-					"-weak_framework",
-					XCTest,
-					"-weak-lswiftXCTest",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ixrevo.RxComposableArchitectureExamples.RxComposableArchitectureTestSupport;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E101BB20242BB97F008BE23A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = EG6FT95FRX;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				INFOPLIST_FILE = RxComposableArchitectureTestSupport/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				OTHER_LDFLAGS = (
-					"-weak_framework",
-					XCTest,
-					"-weak-lswiftXCTest",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ixrevo.RxComposableArchitectureExamples.RxComposableArchitectureTestSupport;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		E1465BE2242A6561000BF643 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1058,18 +991,65 @@
 			};
 			name = Release;
 		};
+		E1BC68F6245DF20D000D7BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = EG6FT95FRX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Dependencies/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ixrevo.com.Dependencies;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1BC68F7245DF20D000D7BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = EG6FT95FRX;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Dependencies/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ixrevo.com.Dependencies;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E101BB1E242BB97F008BE23A /* Build configuration list for PBXNativeTarget "RxComposableArchitectureTestSupport" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E101BB1F242BB97F008BE23A /* Debug */,
-				E101BB20242BB97F008BE23A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		E1465BE1242A6561000BF643 /* Build configuration list for PBXNativeTarget "TodoList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1124,6 +1104,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		E1BC68F5245DF20D000D7BCD /* Build configuration list for PBXNativeTarget "Dependencies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BC68F6245DF20D000D7BCD /* Debug */,
+				E1BC68F7245DF20D000D7BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -1143,14 +1132,6 @@
 				minimumVersion = 1.7.2;
 			};
 		};
-		E181FCAF245DDFFB007AB560 /* XCRemoteSwiftPackageReference "RxComposableArchitecture" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ixrevo/RxComposableArchitecture";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 		E19A844A2423C77700279713 /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:RxSwiftCommunity/RxDataSources.git";
@@ -1167,18 +1148,18 @@
 			package = E101BB2D242BBC56008BE23A /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
 			productName = SnapshotTesting;
 		};
-		E181FCB2245DE0EB007AB560 /* RxDataSources */ = {
+		E1BC68C5245DEAEE000D7BCD /* RxComposableArchitectureTestSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RxComposableArchitectureTestSupport;
+		};
+		E1BC68F8245DF217000D7BCD /* RxComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RxComposableArchitecture;
+		};
+		E1BC68FA245DF21B000D7BCD /* RxDataSources */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E19A844A2423C77700279713 /* XCRemoteSwiftPackageReference "RxDataSources" */;
 			productName = RxDataSources;
-		};
-		E181FCC0245DE3BD007AB560 /* RxComposableArchitecture-dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = "RxComposableArchitecture-dynamic";
-		};
-		E181FCC7245DE4F2007AB560 /* RxComposableArchitecture */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = RxComposableArchitecture;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
