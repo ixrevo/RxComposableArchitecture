@@ -36,6 +36,8 @@
 		E19A842D2423C2BC00279713 /* RxComposableArchitectureExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A842C2423C2BC00279713 /* RxComposableArchitectureExamplesTests.swift */; };
 		E19A84382423C2BC00279713 /* RxComposableArchitectureExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A84372423C2BC00279713 /* RxComposableArchitectureExamplesUITests.swift */; };
 		E19A84462423C35100279713 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A84452423C35100279713 /* AppViewController.swift */; };
+		E1EE66382446275600D15263 /* RxComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E101BAF2242BB784008BE23A /* RxComposableArchitecture.framework */; };
+		E1EE66392446275700D15263 /* RxComposableArchitecture.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E101BAF2242BB784008BE23A /* RxComposableArchitecture.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +90,13 @@
 			remoteGlobalIDString = E19A84112423C2BA00279713;
 			remoteInfo = RxComposableArchitectureExamples;
 		};
+		E1EE663A2446275700D15263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E19A840A2423C2BA00279713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E101BAF1242BB784008BE23A;
+			remoteInfo = RxComposableArchitecture;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -97,6 +106,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				E1EE66392446275700D15263 /* RxComposableArchitecture.framework in Embed Frameworks */,
 				E1465BEF242A66C5000BF643 /* TodoList.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -190,6 +200,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1EE66382446275600D15263 /* RxComposableArchitecture.framework in Frameworks */,
 				E1465BEE242A66C5000BF643 /* TodoList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +496,7 @@
 			);
 			dependencies = (
 				E1465BF1242A66C5000BF643 /* PBXTargetDependency */,
+				E1EE663B2446275700D15263 /* PBXTargetDependency */,
 			);
 			name = RxComposableArchitectureExamples;
 			packageProductDependencies = (
@@ -770,6 +782,11 @@
 			isa = PBXTargetDependency;
 			target = E19A84112423C2BA00279713 /* RxComposableArchitectureExamples */;
 			targetProxy = E19A84342423C2BC00279713 /* PBXContainerItemProxy */;
+		};
+		E1EE663B2446275700D15263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E101BAF1242BB784008BE23A /* RxComposableArchitecture */;
+			targetProxy = E1EE663A2446275700D15263 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
